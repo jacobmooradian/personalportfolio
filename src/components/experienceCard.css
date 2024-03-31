@@ -1,0 +1,29 @@
+.experience-card {
+    display: flex;
+    align-items: center; 
+    padding: 20px;
+    transition: all 0.3s ease; 
+    margin-bottom: 20px; 
+  }
+  
+  .company-icon {
+    filter: grayscale(100%); 
+    width: 150px; 
+    height: 150px; 
+    margin-right: 20px; 
+    transition: filter 0.3s ease; 
+  }
+  
+  .experience-card:hover .company-icon {
+    filter: none; 
+  }
+  
+  .info h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .info p {
+    margin-top: 0;
+  }
+  
