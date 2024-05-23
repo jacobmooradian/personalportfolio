@@ -14,6 +14,7 @@ const App = () => {
   return (
       <div class="main-container">
         <Navbar />
+        
         <div id="home"><Home /></div>
         <div id="about"><About /></div>
         <div id="experience"><Experience /></div>
