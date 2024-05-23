@@ -1,0 +1,13 @@
+.projects-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial, sans-serif';
+}
+
+.projects-container h1 {
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}

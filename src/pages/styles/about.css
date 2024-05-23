@@ -1,0 +1,125 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    background: #ffff;
+}
+
+.about-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+}
+
+.about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.about-image img {
+    width: auto;
+    max-width: 500px;
+    height: auto;
+    border-radius: 5%;
+}
+
+.about-text {
+    flex: 2;
+    max-width: 600px;
+    font-family: sans-serif;
+}
+
+.about-text h1 {
+    color: #e81010;
+    font-weight: bold;
+}
+
+.about-text p {
+    color: #666;
+    font-size: 18px;
+}
+
+.education-container, .skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+    font-family: sans-serif;
+}
+
+.education-container h2, .skills-container h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+  
+.education-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.education-logo {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.education-card div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education-card h3, .education-card p {
+    margin: 5px 0;
+}
+
+.education-card p {
+    color: #666;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; 
+    justify-content: center; 
+    padding: 20px 0;
+}
+
+.skill-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-icon p {
+    font-family: sans-serif;
+    font-weight: bold;
+    color:#666;
+}
+
+.skill-icon svg {
+    width: 72px; 
+    height: 72px;
+    transition: transform 0.3s ease;
+}
+
+.skill-icon svg:hover {
+    transform: scale(1.2);
+}
+
+.skill-icon p {
+    margin-top: 5px;
+}

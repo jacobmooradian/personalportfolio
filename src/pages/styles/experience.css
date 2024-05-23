@@ -1,0 +1,11 @@
+.experience-section {
+    padding: 20px;
+    background-color: #f4f4f4; 
+    border-radius: 8px;
+}
+
+.experience-section h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: bold;
+}
