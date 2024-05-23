@@ -1,8 +1,7 @@
 import React from "react";
 import './styles/about.css';
 import {
-    FaPython, FaReact, FaJsSquare, FaHtml5, FaCss3Alt, FaAws, FaGitAlt, FaDocker, FaNodeJs
-} from 'react-icons/fa';
+    FaPython, FaReact, FaJsSquare, FaHtml5, FaCss3Alt, FaAws, FaGitAlt, FaDocker, FaNodeJs } from 'react-icons/fa';
 import { SiCplusplus, SiPostgresql, SiMongodb, SiExpress, SiDjango, SiBootstrap, SiJupyter, SiPostman, SiMicrosoftsqlserver } from 'react-icons/si';
 import { DiMysql } from 'react-icons/di';
 
