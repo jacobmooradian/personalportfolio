@@ -1,5 +1,5 @@
 import React from "react";
-import ExperienceCard from '../components/experiencecard';
+import ExperienceCard from '../components/experienceCard';
 import { FaPython, FaAws, FaReact } from 'react-icons/fa';
 import './styles/experience.css';
 

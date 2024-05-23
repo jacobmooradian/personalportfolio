@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectCard from '../components/projectcard';
+import ProjectCard from '../components/projectCard';
 import { FaReact, FaPython } from 'react-icons/fa';
 import { SiExpress, SiPostgresql, SiPostman, SiJupyter } from 'react-icons/si';
 import './styles/projects.css';
